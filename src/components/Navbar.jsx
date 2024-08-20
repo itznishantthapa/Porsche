@@ -1,7 +1,6 @@
 import React from 'react'
 import porsche_logo from '../assets/logo.png';
-const listItemHoverStyle = 'hover:bg-black h-12 w-28 flex justify-center items-center rounded-md hover:text-white transition cursor-pointer';
-
+const listItemHoverStyle = 'hover:bg-black h-12 w-28 flex justify-center items-center rounded-md hover:text-white cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg';
 function Navbar() {
     return (
         <>
